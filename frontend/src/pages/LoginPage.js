@@ -22,7 +22,7 @@ const LoginPage = () => {
           {/* Logo */}
           <div className="mb-10">
             <Link to="/" className="font-['Outfit'] font-black text-3xl text-blue-600 tracking-tight" data-testid="login-logo">
-              UNIFIND
+              UniFinds
             </Link>
           </div>
 

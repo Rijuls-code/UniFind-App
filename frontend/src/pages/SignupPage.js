@@ -26,7 +26,7 @@ const SignupPage = () => {
           {/* Logo */}
           <div className="mb-10">
             <Link to="/" className="font-['Outfit'] font-black text-3xl text-blue-600 tracking-tight" data-testid="signup-logo">
-              UNIFIND
+              UniFinds
             </Link>
           </div>
 
@@ -150,7 +150,7 @@ const SignupPage = () => {
         <div className="absolute inset-0 flex items-center justify-center p-12">
           <div className="text-center text-white">
             <h2 className="font-['Outfit'] text-4xl font-bold mb-4">
-              Join UNIFIND
+              Join UniFinds
             </h2>
             <p className="text-lg text-slate-300">
               Start buying and selling with verified students

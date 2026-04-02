@@ -1,4 +1,4 @@
-// Mock data for UNIFIND platform
+// Mock data for UniFinds platform
 
 export const users = [
   {

@@ -12,7 +12,7 @@ const LandingPage = () => {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-slate-200">
         <div className="px-6 sm:px-8 md:px-12 lg:px-24 py-4 flex items-center justify-between">
           <div className="font-['Outfit'] font-black text-2xl text-blue-600 tracking-tight" data-testid="landing-logo">
-            UNIFIND
+            UniFinds
           </div>
           <div className="flex items-center gap-3">
             <Button
@@ -88,7 +88,7 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-['Outfit'] text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight leading-tight text-slate-900 mb-4" data-testid="features-title">
-              Why Choose UNIFIND?
+              Why Choose UniFinds?
             </h2>
             <p className="text-base leading-relaxed text-slate-600 max-w-2xl mx-auto">
               Built for students, by students. Experience the future of campus commerce.
@@ -190,8 +190,8 @@ const LandingPage = () => {
       {/* Footer */}
       <footer className="py-12 px-6 sm:px-8 md:px-12 lg:px-24 bg-slate-900 text-slate-400">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="font-['Outfit'] font-black text-2xl text-white mb-4">UNIFIND</div>
-          <p className="text-sm">© 2024 UNIFIND. College Marketplace Platform.</p>
+          <div className="font-['Outfit'] font-black text-2xl text-white mb-4">UniFinds</div>
+          <p className="text-sm">© 2024 UniFinds. College Marketplace Platform.</p>
         </div>
       </footer>
     </div>

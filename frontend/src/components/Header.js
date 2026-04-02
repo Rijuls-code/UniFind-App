@@ -17,7 +17,7 @@ const Header = ({ hideSearch = false }) => {
             className="font-['Outfit'] font-black text-2xl text-blue-600 tracking-tight hover:text-blue-700 transition-colors"
             data-testid="header-logo"
           >
-            UNIFIND
+            UniFinds
           </Link>
 
           {/* Search Bar - Desktop */}
