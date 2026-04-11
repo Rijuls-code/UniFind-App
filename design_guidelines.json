@@ -1,0 +1,94 @@
+{
+  "theme": "Light",
+  "archetype": "4 (Swiss & High-Contrast)",
+  "reasoning": "Marketplaces require high trust, authority, and clarity. A Swiss High-Contrast approach using Electric Blue against stark whites and deep slates establishes legitimacy. To keep it suitable for Gen Z students, we use slightly rounded geometric fonts and crisp 1px borders instead of heavy drop shadows.",
+  "colors": {
+    "primary": "#2563EB",
+    "primary_hover": "#1D4ED8",
+    "primary_active": "#1E40AF",
+    "background": "#FFFFFF",
+    "background_secondary": "#F8FAFC",
+    "surface": "#FFFFFF",
+    "text_primary": "#0F172A",
+    "text_secondary": "#475569",
+    "text_tertiary": "#94A3B8",
+    "border": "#E2E8F0",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "danger": "#EF4444",
+    "accent_mint": "#CCFBF1",
+    "accent_blue_light": "#DBEAFE"
+  },
+  "typography": {
+    "font_family_heading": "'Outfit', sans-serif",
+    "font_family_body": "'Inter', sans-serif",
+    "font_family_mono": "'JetBrains Mono', monospace",
+    "h1": "text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-none",
+    "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight leading-tight",
+    "h3": "text-xl sm:text-2xl font-bold tracking-tight",
+    "h4": "text-lg font-semibold tracking-tight",
+    "body_large": "text-lg leading-relaxed text-slate-700",
+    "body": "text-base leading-relaxed text-slate-600",
+    "small": "text-sm text-slate-500",
+    "overline": "text-xs font-bold uppercase tracking-[0.2em] text-blue-600"
+  },
+  "layout_and_spacing": {
+    "container_padding": "px-6 sm:px-8 md:px-12 lg:px-24",
+    "section_spacing": "py-24 md:py-32",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6 lg:gap-8",
+    "grid_dashboard": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6",
+    "border_radius": "rounded-2xl",
+    "surface_treatment": "bg-white border border-slate-200 shadow-sm"
+  },
+  "motion_and_interactions": {
+    "hover_card": "transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/10",
+    "hover_button": "transition-all duration-200 active:scale-95",
+    "skeleton": "animate-pulse bg-slate-200 rounded-md"
+  },
+  "components": {
+    "header": "Sticky header with backdrop-blur-xl bg-white/80 border-b border-slate-200. Always show Brand, Search, Nav, and Primary CTA.",
+    "button_primary": "bg-blue-600 text-white font-medium px-6 py-3 rounded-xl hover:bg-blue-700 shadow-[0_0_0_1px_rgba(37,99,235,1)_inset]",
+    "button_secondary": "bg-white text-slate-700 font-medium px-6 py-3 rounded-xl border border-slate-200 hover:border-slate-300 hover:bg-slate-50",
+    "card_listing": "group flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden cursor-pointer",
+    "badge_condition": "px-2.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider",
+    "form_input": "w-full rounded-xl border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all"
+  },
+  "media": {
+    "hero_image": {
+      "url": "https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "College students walking together, used in the landing page hero section. Should have a subtle bg-white/20 overlay if text overlaps."
+    },
+    "feature_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1759863639101-d1ad4923d655?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBzbWFydHBob25lJTIwaGVhZHBob25lcyUyMGNhbWVyYXxlbnwwfHx8fDE3NzQ2ODE0ODJ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Smartphone, laptop, keyboard. Use for buyer page hero/banner or Need Board background."
+      }
+    ],
+    "product_placeholders": [
+      "https://images.unsplash.com/photo-1592041275490-dcac548bad2e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwzfHxsYXB0b3AlMjBzbWFydHBob25lJTIwaGVhZHBob25lcyUyMGNhbWVyYXxlbnwwfHx8fDE3NzQ2ODE0ODJ8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1627691673558-cf76f304f273?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwyfHxsYXB0b3AlMjBzbWFydHBob25lJTIwaGVhZHBob25lcyUyMGNhbWVyYXxlbnwwfHx8fDE3NzQ2ODE0ODJ8MA&ixlib=rb-4.1.0&q=85"
+    ],
+    "user_avatars": [
+      "https://images.unsplash.com/photo-1760552069234-54b9c04bbb05?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxwb3J0cmFpdCUyMHN0dWRlbnQlMjB5b3VuZyUyMHNtaWxpbmd8ZW58MHx8fHwxNzc0NjgxNDg0fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1611181355758-089959e2cfb2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHN0dWRlbnQlMjB5b3VuZyUyMHNtaWxpbmd8ZW58MHx8fHwxNzc0NjgxNDg0fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.pexels.com/photos/8617732/pexels-photo-8617732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  "specific_page_instructions": {
+    "landing_page": "Use large Outline text in the background for high energy. The Hero must feature the 'UNIFIND' text overlapping the hero image slightly. Feature cards should use the Bento Grid strategy. Emphasize 'Trust Score' with mint green glowing accents.",
+    "auth_pages": "Keep it hyper-minimal. Clean centered form on a light stone background. Add an elegant split screen on desktop with the hero image on the right side.",
+    "dashboard_home": "Use 'Control Room' dense grid. Welcome message must be highly personal. Use cards for navigation, not just a sidebar. Show recent activity as a sleek list.",
+    "buyer_page": "Focus on the search bar. High contrast UI. Product cards must have the Condition Badge (e.g., 'Like New', 'Fair') prominently displayed using success/warning colors.",
+    "listing_detail": "Editorial style layout. Massive product image on left. Right side: Price, highly visible 'Trust Score' badge of seller, and two massive sticky CTA buttons (Chat, Make Offer).",
+    "seller_and_post_form": "Multi-step form should feel like an iOS setup screen. Clean, one question per view if possible, or very clearly segmented sections with large 'Next' buttons.",
+    "need_board_ai": "Must feel 'Smart'. When 'Find Matches' is clicked, show a scanning skeleton animation with a glowing blue line before revealing mock extracted info.",
+    "chat_page": "Standard iMessage-like bubbles, but highly stylized. Add a 'Quick Actions' bar at the bottom (e.g., 'Share Location', 'Send Offer').",
+    "analytics_dashboard": "Clean charts. Use simple Bar/Line mock SVGs or Recharts. Make numbers massive and authoritative.",
+    "profile_page": "Focus heavily on the 'Trust Score'. Big radial progress bar or badge. List reviews with high contrast text."
+  },
+  "technical_rules": {
+    "icons": "lucide-react",
+    "testing": "All interactive elements MUST have data-testid attributes",
+    "html_elements": "Use Shadcn components for complex interactions. For pure layout, use standard HTML divs heavily styled with Tailwind."
+  }
+}
